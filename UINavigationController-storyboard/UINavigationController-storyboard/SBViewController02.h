@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SBViewController02.h
 //  UINavigationController-storyboard
 //
 //  Created by zhangdy on 2017/6/25.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SBViewController02 : UIViewController
 
 @end
-

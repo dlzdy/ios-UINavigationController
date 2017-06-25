@@ -18,7 +18,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // 设置root
     ViewControllerRoot *vcRoot = [[ViewControllerRoot alloc]init];
-    self.window.rootViewController = vcRoot;
+    
+    UINavigationController *nv = [[UINavigationController alloc]initWithRootViewController:vcRoot];
+    self.window.rootViewController = nv;
     return YES;
 }
 

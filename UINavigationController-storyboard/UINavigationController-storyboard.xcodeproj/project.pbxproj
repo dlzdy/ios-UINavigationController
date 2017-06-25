@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F9D6DA91F000C4100A2718D /* SBViewControllerRoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9D6DA81F000C4100A2718D /* SBViewControllerRoot.m */; };
+		1F9D6DAC1F000C5100A2718D /* SBViewController02.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9D6DAB1F000C5100A2718D /* SBViewController02.m */; };
+		1F9D6DAF1F000C5F00A2718D /* SBViewController03.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9D6DAE1F000C5F00A2718D /* SBViewController03.m */; };
 		1FD5B0D51EFF4FD8008AB50F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD5B0D41EFF4FD8008AB50F /* main.m */; };
 		1FD5B0D81EFF4FD8008AB50F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD5B0D71EFF4FD8008AB50F /* AppDelegate.m */; };
-		1FD5B0DB1EFF4FD8008AB50F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD5B0DA1EFF4FD8008AB50F /* ViewController.m */; };
 		1FD5B0DE1EFF4FD8008AB50F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FD5B0DC1EFF4FD8008AB50F /* Main.storyboard */; };
 		1FD5B0E01EFF4FD8008AB50F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FD5B0DF1EFF4FD8008AB50F /* Assets.xcassets */; };
 		1FD5B0E31EFF4FD8008AB50F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FD5B0E11EFF4FD8008AB50F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F9D6DA71F000C4100A2718D /* SBViewControllerRoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBViewControllerRoot.h; sourceTree = "<group>"; };
+		1F9D6DA81F000C4100A2718D /* SBViewControllerRoot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBViewControllerRoot.m; sourceTree = "<group>"; };
+		1F9D6DAA1F000C5100A2718D /* SBViewController02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBViewController02.h; sourceTree = "<group>"; };
+		1F9D6DAB1F000C5100A2718D /* SBViewController02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBViewController02.m; sourceTree = "<group>"; };
+		1F9D6DAD1F000C5F00A2718D /* SBViewController03.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBViewController03.h; sourceTree = "<group>"; };
+		1F9D6DAE1F000C5F00A2718D /* SBViewController03.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBViewController03.m; sourceTree = "<group>"; };
 		1FD5B0D01EFF4FD8008AB50F /* UINavigationController-storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UINavigationController-storyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD5B0D41EFF4FD8008AB50F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1FD5B0D61EFF4FD8008AB50F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1FD5B0D71EFF4FD8008AB50F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1FD5B0D91EFF4FD8008AB50F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1FD5B0DA1EFF4FD8008AB50F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1FD5B0DD1EFF4FD8008AB50F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1FD5B0DF1EFF4FD8008AB50F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FD5B0E21EFF4FD8008AB50F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,13 +66,17 @@
 			children = (
 				1FD5B0D61EFF4FD8008AB50F /* AppDelegate.h */,
 				1FD5B0D71EFF4FD8008AB50F /* AppDelegate.m */,
-				1FD5B0D91EFF4FD8008AB50F /* ViewController.h */,
-				1FD5B0DA1EFF4FD8008AB50F /* ViewController.m */,
 				1FD5B0DC1EFF4FD8008AB50F /* Main.storyboard */,
 				1FD5B0DF1EFF4FD8008AB50F /* Assets.xcassets */,
 				1FD5B0E11EFF4FD8008AB50F /* LaunchScreen.storyboard */,
 				1FD5B0E41EFF4FD8008AB50F /* Info.plist */,
 				1FD5B0D31EFF4FD8008AB50F /* Supporting Files */,
+				1F9D6DA71F000C4100A2718D /* SBViewControllerRoot.h */,
+				1F9D6DA81F000C4100A2718D /* SBViewControllerRoot.m */,
+				1F9D6DAA1F000C5100A2718D /* SBViewController02.h */,
+				1F9D6DAB1F000C5100A2718D /* SBViewController02.m */,
+				1F9D6DAD1F000C5F00A2718D /* SBViewController03.h */,
+				1F9D6DAE1F000C5F00A2718D /* SBViewController03.m */,
 			);
 			path = "UINavigationController-storyboard";
 			sourceTree = "<group>";
@@ -150,8 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FD5B0DB1EFF4FD8008AB50F /* ViewController.m in Sources */,
 				1FD5B0D81EFF4FD8008AB50F /* AppDelegate.m in Sources */,
+				1F9D6DAF1F000C5F00A2718D /* SBViewController03.m in Sources */,
+				1F9D6DAC1F000C5100A2718D /* SBViewController02.m in Sources */,
+				1F9D6DA91F000C4100A2718D /* SBViewControllerRoot.m in Sources */,
 				1FD5B0D51EFF4FD8008AB50F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +323,7 @@
 				1FD5B0E91EFF4FD8008AB50F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
